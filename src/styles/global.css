@@ -1,0 +1,67 @@
+.main-screen {
+    background-color: #fff4e6; /* Tono melocotón pastel */
+    padding: 30px;
+}
+
+/* Estilo global para todos los componentes */
+body {
+    font-family: 'Poppins', sans-serif; /* Fuente moderna y amigable */
+    margin: 0;
+    padding: 0;
+    background-color: #fefae0; /* Fondo en tono marfil pastel */
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    color: #4a4e69; /* Color púrpura grisáceo para encabezados */
+    font-weight: 600;
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(145deg, #ffe5e5, #f6d6d6, #d9d4ef, #c1e7e3);
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    color: #4a4e69; /* Color para el texto */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+div:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo para los botones */
+button {
+    padding: 12px 25px;
+    background-color: #b3e2cc; /* Verde pastel suave */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: auto; /* Ajuste de tamaño según el texto */
+    text-align: center;
+}
+
+/* Efecto al pasar el cursor */
+button:hover {
+    background-color: #a3d9b1; /* Verde pastel ligeramente más oscuro */
+    transform: translateY(-3px); /* Efecto de levantar el botón */
+}
+
+/* Efecto al hacer clic */
+button:active {
+    transform: translateY(1px); /* Botón se "hundirá" un poco */
+}
+
+/* Estilo para la sección de los botones */
+.button-container {
+    display: flex;
+    justify-content: space-evenly; /* Espacio igual entre los botones */
+    gap: 20px; /* Espacio entre cada botón */
+    margin-top: 20px; /* Espacio superior */
+    align-items: center; /* Alineación vertical centrada */
+}
